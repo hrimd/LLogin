@@ -1,0 +1,48 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color .3s, color .3s;
+  }
+  
+  .App {
+    background-color: white;
+    color: black;
+  }
+  
+  .App.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color .3s;
+  }
+  
+  .navbar.light {
+    background-color: #f7f7f7;
+  }
+  
+  .navbar.dark {
+    background-color: #444;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color .3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
